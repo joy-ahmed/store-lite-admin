@@ -10,11 +10,7 @@ import { useStoreModal } from "@/hooks/use-store-modal";
       onOpen();
     }
   },[isOpen, onOpen])
-  return (
-      <div className="p-4">
-       Root page
-      </div>
-  )
+  return null;
 }
 
 export default SetupPage;
