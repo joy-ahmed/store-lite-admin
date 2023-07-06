@@ -25,6 +25,11 @@ const Mainnav = ({ className, ...props}: React.HTMLAttributes<HTMLElement>) => {
       active: pathName === `/${params.storeId}/categories`
     },
     {
+      href: `/${params.storeId}/products`,
+      label: 'Products',
+      active: pathName === `/${params.storeId}/products`
+    },
+    {
       href: `/${params.storeId}/sizes`,
       label: 'Sizes',
       active: pathName === `/${params.storeId}/sizes`
